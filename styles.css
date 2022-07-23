@@ -49,11 +49,11 @@ body {
 
 
 .img1 {
-  background: url('./img/IMG_01.jpg') center center/cover;
+  background: url('./img/IMG_01.png') center center/cover;
   width: 260px;
   height: 380px;
   border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);  
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
 }
 
@@ -64,20 +64,20 @@ body {
 }
 
 .img2 {
-  background: url('./img/IMG_02.jpg') center center/cover;
+  background: url('./img/IMG_02.png') center center/cover;
   width: 260px;
   height: 380px;
   border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);  
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
 }
 
 .img3 {
-  background: url('./img/IMG_03.jpg') center center/cover;
+  background: url('./img/IMG_03.png') center center/cover;
   width: 260px;
   height: 380px;
   border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);  
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
 }
 
@@ -86,7 +86,7 @@ body {
   width: 260px;
   height: 380px;
   border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);  
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
 }
 
@@ -95,7 +95,7 @@ body {
   width: 260px;
   height: 380px;
   border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);  
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: rgb(255, 43, 85);
+  color: rgba(255, 255, 255);
   font-size: 13px;
 }
 
@@ -111,9 +111,9 @@ body {
   padding: 2% 3% 2% 3%;
   margin: 1.5% 1%;
   height: 50%;
-  background: rgb(31, 31, 31);
-  border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(255, 43, 85, 0.77);
+  background: rgb(0, 0, 0);
+  border-radius: 15px;  
+  
 }
 
 .preco a {
@@ -122,29 +122,66 @@ body {
 }
 
 .img6 {
-  background: url('./img/IMG_06.jpg') center center/cover;
+  background: url('./img/IMG_06.png')  center center/cover;
   width: 260px;
   height: 380px;
   border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);  
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
+  
 }
 
 .img7 {
-  background: url('./img/IMG_07.jpg') center center/cover;
+  background: url('./img/IMG_07.png') center center/cover;
   width: 260px;
   height: 380px;
   border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);  
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
 }
 
 .img8 {
-  background: url('./img/IMG_08.jpg') center center/cover;
+  background: url('./img/IMG_08.png') center center/cover;
   width: 260px;
   height: 380px;
   border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);  
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+  cursor: pointer;
+}
+
+.img9 {
+  background: url('./img/IMG_09.png') center center/cover;
+  width: 260px;
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+  cursor: pointer;
+}
+
+.img10 {
+  background: url('./img/IMG_10.png');
+  max-width: 260px;
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+  cursor: pointer;
+  background-size: 100%;
+}
+.img11 {
+  background: url('./img/IMG_11.png') center center/cover;
+  max-width: 260px;
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+  cursor: pointer;
+  
+}
+.img12 {
+  background: url('./img/IMG_12.png') center center/cover;
+  max-width: 260px;
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
 }
 
