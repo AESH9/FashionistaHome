@@ -39,19 +39,21 @@ body {
 .legenda {
   padding-top: 10px;
   text-align: center;
+  font-size: 14.8px;
 }
 
 .preco {
   padding-top: 4px;
   font-weight: lighter;
-  text-align: center;
+  text-align: center;  
+  font-size: 16px;
 }
 
 
 .img1 {
   background: url('./img/IMG_01.png') center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -65,8 +67,8 @@ body {
 
 .img2 {
   background: url('./img/IMG_02.png') center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -74,8 +76,8 @@ body {
 
 .img3 {
   background: url('./img/IMG_03.png') center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -83,8 +85,8 @@ body {
 
 .img4 {
   background: url('./img/IMG_04.png') center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -92,8 +94,8 @@ body {
 
 .img5 {
   background: url('./img/IMG_05.png') center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -123,8 +125,8 @@ body {
 
 .img6 {
   background: url('./img/IMG_06.png')  center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -133,8 +135,8 @@ body {
 
 .img7 {
   background: url('./img/IMG_07.png') center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -142,8 +144,8 @@ body {
 
 .img8 {
   background: url('./img/IMG_08.png') center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -151,8 +153,8 @@ body {
 
 .img9 {
   background: url('./img/IMG_09.png') center center/cover;
-  width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -160,8 +162,8 @@ body {
 
 .img10 {
   background: url('./img/IMG_10.png');
-  max-width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -169,8 +171,8 @@ body {
 }
 .img11 {
   background: url('./img/IMG_11.png') center center/cover;
-  max-width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
@@ -178,8 +180,8 @@ body {
 }
 .img12 {
   background: url('./img/IMG_12.png') center center/cover;
-  max-width: 260px;
-  height: 380px;
+  width: 280px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
