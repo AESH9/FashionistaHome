@@ -7,8 +7,7 @@
 
 body {
     width: 100%;
-    background-color: rgb(230, 230, 230);
-    font-family: 'Arial', Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -24,12 +23,28 @@ body {
     padding-left: 0.8rem;
 }
 
+.qtdProdutos {
+    position: absolute;
+    top: 20.1px;
+    right: 12px;
+    width: 19.1px;
+    height: 21.2px;
+    font-size: 17px;
+    border-radius: 60%;
+    background: #ff3333;
+    text-align: center;
+    color: #ffffff;
+    border: 1.5px solid #000000;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
 .itens {
-    padding-top: 28px;
-    padding-bottom: 25px;
+    padding-top: 5%;
+    padding-bottom: 7%;
     width: 100%;
     height: 2.2rem;
-    padding-left: 23px;
+    padding-left: 9%;
     color: rgb(144, 144, 144);
 
 }
@@ -110,9 +125,16 @@ body {
     height: 490px;
 }
 
+
 .container {
     display: grid;
     grid-template-columns: repeat(1, 0fr);
+}
+
+#nav-icons {
+    color: black;
+    padding-left: 1rem;
+    font-size: 26px;
 }
 
 footer {
@@ -124,4 +146,5 @@ footer {
     color: rgb(34, 34, 34);
     font-size: 14px;
     padding-bottom: 4px;
+    box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
 }
