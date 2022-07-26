@@ -122,15 +122,6 @@ body {
   cursor: pointer;
 }
 
-.img02:hover {
-  background: url('./img/IMG_02-1.webp') center center/cover;
-  width: 300px;
-  height: 374px;
-  border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
-  cursor: pointer;
-}
-
 .img10 {
   background: url('./img/IMG_10.jpg') center center/cover;
   width: 300px;
@@ -165,25 +156,9 @@ body {
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
 }
-.img18:hover {
-  background: url('./img/IMG_18.webp') center center/cover;
-  width: 300px;
-  height: 374px;
-  border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
-  cursor: pointer;
-}
 
 .img20 {
-  background: url('./img/IMG_20.jpg') center center/cover;
-  width: 300px;
-  height: 374px;
-  border-radius: 15px;
-  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
-  cursor: pointer;
-}
-.img20:hover {
-  background: url('./img/IMG_20-1.webp') center center/cover;
+  background: url('./img/IMG_20.webp') center center/cover;
   width: 300px;
   height: 374px;
   border-radius: 15px;
@@ -198,6 +173,15 @@ body {
   border-radius: 15px;
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
   cursor: pointer;
+}
+.img23 {
+  background: url('./img/IMG_23.jpg') center center/cover;
+  width: 300px;
+  height: 374px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+  cursor: pointer;
+  background-size: 100%;
 }
 
 .img24 {
