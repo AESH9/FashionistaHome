@@ -25,26 +25,26 @@ body {
 
 .qtdProdutos {
     position: absolute;
-    top: 20.1px;
-    right: 12px;
-    width: 19.1px;
-    height: 21.2px;
-    font-size: 17px;
+    top: 20px;
+    right: 14px;
+    width: 18px;
+    height: 20px;
+    font-size: 14px;
     border-radius: 60%;
-    background: #ff3333;
+    background: rgb(170, 29, 29);
     text-align: center;
     color: #ffffff;
     border: 1.5px solid #000000;
     font-weight: bold;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
 }
 
 .itens {
     padding-top: 5%;
-    padding-bottom: 7%;
+    padding-bottom: 4%;
     width: 100%;
     height: 2.2rem;
-    padding-left: 9%;
+    padding-left: 15%;
     color: rgb(144, 144, 144);
 
 }
@@ -65,66 +65,51 @@ body {
     font-size: 18px;
 }
 
-.img1 {
-    width: 350px;
-    height: 490px;
+.img {
+    width: 300px;
+    height: auto;
 }
 
-.img2 {
-    width: 350px;
-    height: 490px;
+.img02 {
+    width: 300px;
+    height: 374px;
 }
-
-.img3 {
-    width: 350px;
-    height: 490px;
-}
-
-.img4 {
-    width: 350px;
-    height: 490px;
-}
-
-.img5 {
-    width: 350px;
-    height: 490px;
-}
-
-.img6 {
-    width: 350px;
-    height: 490px;
-}
-
-.img7 {
-    width: 350px;
-    height: 490px;
-}
-
-.img8 {
-    width: 350px;
-    height: 490px;
-}
-
-.img9 {
-    width: 350px;
-    height: 490px;
-}
-
 .img10 {
-    width: 350px;
-    height: 490px;
+    width: 300px;
+    height: 374px;
 }
 
-.img11 {
-    width: 350px;
-    height: 490px;
+.img16 {
+    width: 300px;
+    height: 374px;    
 }
 
-.img12 {
-    width: 350px;
-    height: 490px;
+.img16 {
+    width: 300px;
+    height: 374px;    
+}
+.img17 {
+    width: 300px;
+    height: 374px;    
+}
+.img18 {
+    width: 300px;
+    height: 374px;    
 }
 
+.img20 {
+    width: 300px;
+    height: 374px;    
+}
+.img22 {
+    width: 300px;
+    height: 374px;    
+}
+
+.img24 {
+    width: 300px;
+    height: 374px;    
+}
 
 .container {
     display: grid;
