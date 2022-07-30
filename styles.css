@@ -56,7 +56,7 @@ body {
 }
 
 .contador {
-  background-color: rgb(88, 194, 46);
+  background: rgb(88, 194, 46);
   color: rgb(255, 255, 255);
   position: relative;
   right: 17px;
@@ -76,7 +76,7 @@ body {
 }
 
 /* QUANTIDADE DE ITENS */
-.itens {
+/* .itens {
   padding-top: 1.6%;
   width: 100%;
   height: 2.2rem;
@@ -85,6 +85,38 @@ body {
   padding-bottom: 1.5%;
   font-size: 18px;
 }
+ */
+
+/* BARRA DE FRETE */
+#barraFrete {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #727272;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #F6F5F3;
+}
+
+.cor {
+    color: #0d9f0b;
+    font-size: 1.4rem;
+}
+
+#barraFrete a {   
+  text-decoration: underline;
+  color: #727272;
+  font-weight: lighter;
+}
+
+#barraFrete a:hover {    
+    text-decoration: none;
+    border-bottom: 2px solid #727272;
+}
+
 
 /* PRODUTOS */
 .container {
