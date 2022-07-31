@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link rel="icon" href="./img/favicon.ico">
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
   <title>Fashionista</title>
 </head>
 
@@ -18,29 +19,42 @@
 
   <div class="navbar">
     <img class="logo" src="./img/logo.svg" alt="Fashionista" />
-
     <div class="icons-navbar">
-      <a href="#"><i class="fa-solid fa-circle-user" id="nav-icons" style="font-size: 30px;"></i></a>
-      <div class="mudar">
-        <img src="./img/bag.png" style="width: 33px; height: auto;">
-        <div class="contador">0</div>
-      </div>
+      <a href="cadastro/registration.html"><i class="fa-solid fa-circle-user" id="nav-icons" style="font-size: 30px;"
+          title="Criar Conta"></i></a>
+      <a><button class="mudar" id="carrinho-icone">
+          <img src="./img/bag.png" style="width: 33px; height: 33x;">
+          <div class="contador" title="Carrinho">0</div>
+        </button></a>
     </div>
 
   </div>
+
+    <!--   // ------------------------------------------------------------- // -->
+
+
+    <div class="cart">
+      <h2 class="cart-title">Seu carrinho</h2>
+      <p>está vazio</p>
+      <div class="total">
+        <div class="total-title">Total:</div>
+        <div class="total-price">R$ 0</div>
+      </div>
+      <a href="./checkout/checkout.html">
+        <button type="button" class="btn-buy">Finalizar Compra</button>
+      </a>
+      <i class="bx bx-x" id="close-cart"></i>
+    </div>
+  
+    <!--   // ------------------------------------------------------------- // -->
 
 <div id="barraFrete">
         <p>
             <strong class="cor">FRETE GRÁTIS*</strong> a partir de R$ 199,99.<!--  Apenas com o -->
-            <strong class="cor">CARTÃO FASHIONISTA</strong>
+            <strong class="cor">CARTÃO GO FASHION</strong>
             <a href="#" target="_blank" class="condicoes">*Veja condições</a>
         </p>
     </div>
-<!-- 
-  <div class="itens">
-    <div class="item">22 items</div>
-  </div>
- -->
   <div class="container">
 
     <div class="imagem">
@@ -215,7 +229,7 @@
   </footer>
 
   <script src="https://kit.fontawesome.com/81e40cb5df.js" crossorigin="anonymous"></script>
-
+  <script src="main.js"></script>
 </body>
 
 </html>
