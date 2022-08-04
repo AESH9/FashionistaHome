@@ -12,7 +12,7 @@ body {
 
 .navbar {
   background-color: rgb(255, 255, 255);
-  padding: 0 1rem;
+  padding: 15px 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,8 +20,8 @@ body {
 }
 
 .logo {
-  max-width: 240px;
-  max-height: 110px;
+  max-width: 250px;
+  max-height: 150px;
   width: auto;
 }
 

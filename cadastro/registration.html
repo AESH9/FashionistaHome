@@ -5,23 +5,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./img/favicon.ico" />
-  <link rel="stylesheet" href="/pages/styles.css">
-  <link rel="stylesheet" href="registration.css">
+  <link rel="icon" href="/img/favicon.ico" />
+  <link rel="stylesheet" href="/cadastro/registration.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-  <title>Loja E-commerce</title>
+  <title>Go Fashion</title>
 </head>
 
 <body>
-  <header>
-    <div class="nav container">
-      <div class="div-logo">
-        <a href="/home.html" class="logo"><img class="logo" src="/img/logo.svg" alt="Fashionista" /></a>
-      </div>
+  <div class="navbar">
+    <a href="/index.html" >
+      <div >
+        <img class="logo"src="/img/logo.svg" alt="Fashionista" style="width: 250px;"/>
+      </div></a>
+
+    <div class="icons-navbar">
+      <a><button class="mudar" id="carrinho-icone">
+          <img src="/img/bag.png" style="width: 33px; height: 33x;">
+          <!-- <img src="/img/bag.png" style="width: 33px; height: 33x;"> -->
+          <div class="contador" title="Carrinho">0</div>
+        </button></a>
     </div>
-  </header>
+
+  </div>
+
+  <!--   // ------------------------------------------------------------- // -->
+
+  <div class="cart">
+    <h2 class="cart-title">Seu carrinho</h2>
+    <p>está vazio</p>
+    <div class="total">
+      <div class="total-title">Total:</div>
+      <div class="total-price">R$ 0</div>
+    </div>
+    <a href="./checkout/checkout.html">
+      <button type="button" class="btn-buy">Finalizar Compra</button>
+    </a>
+    <i class="bx bx-x" id="close-cart"></i>
+  </div>
+
+  <!--   // ------------------------------------------------------------- // -->
 
   <section class="shop container">
     <h1 id="form-titulo-cadastro">Criar seu cadastro</h1>
@@ -83,7 +108,7 @@
                 <div class="form-dados-label"><label>Senha</label>
                 </div>
                 <div class="form-end-field"><input type="password" placeholder="Senha" class="form-input"
-                    name="nome-vendedor" />
+                    name="senha" />
                 </div>
               </div>
             </div>
@@ -175,13 +200,17 @@
 
   <footer>
     <div class="footer-div">
-      <h2>Fashionista</h2>
+      <h2 id="form-footer-h2">Go Fashion</h2>
       <div class="content-footer">
-        Copyright© 2022-2022, Fashionista Company. Todos os direitos
+        Copyright©2022-2022, Go Fashion Company. Todos os direitos
         reservados.
       </div>
     </div>
   </footer>
+
+  <script src="https://kit.fontawesome.com/81e40cb5df.js" crossorigin="anonymous"></script>
+  <script src="/script.js"></script>
+
 </body>
 
 </html>
