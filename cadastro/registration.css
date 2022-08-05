@@ -85,22 +85,22 @@ a:link{
   }
 
 .contador {
-  background: rgb(88, 194, 46);
+   background: rgb(88, 194, 46);
   color: rgb(255, 255, 255);
   position: relative;
-  right: 17px;
-  top: 7px;
+  right: 20px;
+  top: 7.7px;
   bottom: 0px;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  height: 30px;
-  width: 30px;
+  height: 32px;
+  width: 32px;
   border-radius: 50%;
   border: 3px solid rgb(255, 255, 255);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 

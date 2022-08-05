@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./img/favicon.ico">
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css" />
@@ -20,47 +20,47 @@
   <div class="navbar">
     <img class="logo" src="./img/logo.svg" alt="Fashionista" />
     <div class="icons-navbar">
-      <a href="cadastro/registration.html"><i class="fa-solid fa-circle-user" id="nav-icons" style="font-size: 30px;"
+      <a href="cadastro/registration.html"><i class="fa-solid fa-circle-user" id="nav-icons" style="font-size: 35px;"
           title="Criar Conta"></i></a>
       <a><button class="mudar" id="carrinho-icone">
-          <img src="./img/bag.png" style="width: 33px; height: 33x;">
+          <img src="./img/bag.png" style="width: 38px; height: 38px;">
           <div class="contador" title="Carrinho">0</div>
         </button></a>
     </div>
 
   </div>
 
-    <!--   // ------------------------------------------------------------- // -->
+  <!--   // ------------------------------------------------------------- // -->
 
-
-    <div class="cart">
-      <h2 class="cart-title">Seu carrinho</h2>
-      <p>está vazio</p>
-      <div class="total">
-        <div class="total-title">Total:</div>
-        <div class="total-price">R$ 0</div>
-      </div>
-      <a href="./checkout/checkout.html">
-        <button type="button" class="btn-buy">Finalizar Compra</button>
-      </a>
-      <i class="bx bx-x" id="close-cart"></i>
+  <!-- POPUP CARRINHO -->
+  <div class="cart">
+    <h2 class="cart-title">Seu carrinho</h2>
+    <p>está vazio</p>
+    <div class="total">
+      <div class="total-title">Total:</div>
+      <div class="total-price">R$ 0</div>
     </div>
-  
-    <!--   // ------------------------------------------------------------- // -->
+    <a href="./checkout/checkout.html">
+      <button type="button" class="btn-buy">Finalizar Compra</button>
+    </a>
+    <i class="bx bx-x" id="close-cart"></i>
+  </div>
 
-<div id="barraFrete">
-        <p>
-            <strong class="cor">FRETE GRÁTIS*</strong> a partir de R$ 199,99.<!--  Apenas com o -->
-            <strong class="cor">CARTÃO GO FASHION</strong>
-            <a href="#" target="_blank" class="condicoes">*Veja condições</a>
-        </p>
-    </div>
+
+  <div id="barraFrete">
+    <p>
+      <strong class="cor">FRETE GRÁTIS*</strong> a partir de R$ 199,99.
+      <strong class="cor">CARTÃO GO FASHION</strong>
+      <a href="#" target="_blank" class="condicoes">*Veja condições</a>
+    </p>
+  </div>
+
   <div class="container">
 
     <div class="imagem">
-      <img class="img" src="./img/IMG_01.webp" style="width: 300px; height: auto;" onclick="location.href=''">
-      <div href="#" class="legenda">Camisa cropped manga longa laranja</div>
-      <div href="#" class="preco">R$ 139,90</div>
+      <img class="img" src="./img/IMG_01.webp" style="width: 300px; height: auto;" onclick="location.href='/produto/product.html'">
+      <div href="/produto/product.html" class="legenda">Camisa cropped manga longa laranja</div>
+      <div href="/produto/product.html" class="preco">R$ 139,90</div>
     </div>
 
     <div class="imagem">
@@ -231,5 +231,4 @@
   <script src="https://kit.fontawesome.com/81e40cb5df.js" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
-
 </html>

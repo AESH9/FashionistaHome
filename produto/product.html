@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <title>Fashionista</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="..">
+      <div>
+        <img class="logo" src="../img/logo.svg" alt="Fashionista" style="width: 250px;" />
+      </div>
+    </a>
+
+    <div class="icons-navbar">
+      <a><button class="mudar" id="carrinho-icone">
+          <img src="../img/bag.png" style="width: 38px; height: 38px;">
+          <!-- <img src="/img/bag.png" style="width: 33px; height: 33x;"> -->
+          <div class="contador" title="Carrinho">0</div>
+        </button></a>
+    </div>
+  </div>
+
+  <div class="produto-body">
+    <div class="showroom">
+
+      <div class="image">
+        <img class="product-image" src="../img/IMG_01.webp" alt=""></img>
+      </div>
+
+      <div class="product-descricao">
+        <div class="product-name">
+          <h2><span>Camisa cropped manga longa laranja</span></h2>
+        </div>
+
+
+        <div class="select">
+          <div class="product-descricao-tamanho">Selecionar Tamanho:</div>
+
+          <div class="container">
+            <form>
+              <input type="radio" name="size" id="p">
+              <label for="p">P</label>
+
+              <input type="radio" name="size" id="m">
+              <label for="m">M</label>
+
+              <input type="radio" name="size" id="g">
+              <label for="g">G</label>
+            </form>
+          </div>
+
+          <div class="price">
+            <p id="product-preco-id">R$ 139,90</p>
+            <span id="product-preco-span"></span>
+          </div>
+
+          <div id="product-preco-id-juros">
+            Parcele no Cartão Fashionista<br>
+              em até 5x de R$ 35,98 sem juros
+          </div>
+
+          <div class="product-escolhas">
+            <input class="product-escolha-final" type="button" value=" Adicionar à Sacola">
+            <input class="product-escolha-final" type="button" value="Continuar Escolhendo">
+            <input class="product-escolha-final" type="button" value="Finalizar Compra">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-div">
+      <h2>Fashionista</h2>
+      <div class="content-footer">
+        Copyright©2022-2022, Fashionista Company. Todos os direitos
+        reservados.
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/81e40cb5df.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
