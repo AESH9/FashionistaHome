@@ -13,7 +13,7 @@ body {
 .navbar {
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 50px;
+    height: 80px;
     padding: 0 0.1rem;
 }
 
@@ -23,25 +23,6 @@ body {
     padding-left: 0.8rem;
 }
 
-.contador {
-    background-color: rgb(88, 194, 46);
-    color: rgb(255, 255, 255);
-    position: relative;
-    right: 17px;
-    top: 7px;
-    bottom: 0px;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    border: 3px solid rgb(255, 255, 255);
-    font-size: 12px;
-    font-weight: bold;
-}
 
 /* BARRA DE FRETE */
 #barraFrete {
@@ -145,9 +126,10 @@ body {
 }
 
 #nav-icons {
-    color: black;
-    padding-left: 1rem;
-    font-size: 26px;
+    color: #404040;
+  padding-right: 10px;
+  padding-top: 8px;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 footer {
