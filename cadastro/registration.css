@@ -40,12 +40,7 @@ body {
   box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
 }
 
-.logo {
-  max-width: 250px;
-  max-height: 150px;
-  width: auto;
-  height: auto;
-}
+
 
 /* ICON SACOLA */
 #ShoppingBagIcon {
@@ -321,7 +316,7 @@ footer {
   display: flex;
   flex-direction: column;
   height: 50%;
- /*  position: relative; */
+  /*  position: relative; */
   vertical-align: top;
   padding: 20px 50px 30px 60px;
   margin-top: 10px;
@@ -361,6 +356,33 @@ footer {
 }
 
 /*Media Query*/
+@media screen and (max-width: 500px) {
+  #logo {
+    width: 190px;
+    padding-left: 10px;
+
+  }
+
+  .navbar {
+    padding: 0;
+    height: 60px;
+  }
+
+  #ShoppingBagIcon {
+    width: 40px;
+  }
+
+  .contador {
+    right: 22px;
+    top: 20px;
+    height: 26px;
+    width: 26px;
+    font-size: 12px;
+  }
+
+
+}
+
 @media screen and (min-width: 970px) {
   .container {
     max-width: 1068px;
