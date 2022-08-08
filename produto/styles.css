@@ -12,6 +12,7 @@ body {
 }
 
 .navbar {
+  width: 100%;
   background-color: rgb(255, 255, 255);
   padding: 15px 2rem;
   display: flex;
@@ -24,6 +25,12 @@ body {
   max-width: 250px;
   max-height: 150px;
   width: auto;
+}
+
+/* ICON SACOLA */
+#ShoppingBagIcon {
+  width: 45px;
+  height: auto;
 }
 
 .icons-navbar {
@@ -43,7 +50,7 @@ body {
 }
 
 #nav-icons:hover {
-  transform: scale(1.2);
+  transform: scale(1.07);
 }
 
 .mudar {
@@ -54,9 +61,89 @@ body {
 }
 
 .mudar:hover {
-  transform: scale(1.2);
+  transform: scale(1.07);
   cursor: pointer;
 }
+
+/* BARRA FINALIZAR COMPRA */
+:root {
+  --main-color: #fd4646;
+  --text-color: #171427;
+  --bg-color: #fff;
+  --bt-color: #4e46c5;
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 318px;
+  min-height: 100vh;
+  padding: 20px;
+  background: var(--bg-color);
+  box-shadow: -2px 4px hsl(0 4% 15% / 10%);
+  transition: 0.4s;text-align: center;
+}
+
+.cart.active {
+  right: 0;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  padding-right: 10px;
+  border-top: 1px solid var(--text-color);  
+  padding-top: 5px;
+}
+
+.total-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.total-price {
+  margin-left: 0.5rem;
+}
+
+.btn-buy {
+  display: flex;
+  margin: 1.5rem 55px 0 auto;
+  padding: 12px 20px;
+  border: none;
+  background: var(--main-color);
+  color: var(--bg-color);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  
+}
+a:link{
+text-decoration: none;
+
+}
+
+.btn-buy:hover {
+  background: var(--text-color);
+}
+
+#close-cart {
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 2rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
 
 img {
   width: 400px;
@@ -83,8 +170,8 @@ body {
   background: rgb(88, 194, 46);
   color: rgb(255, 255, 255);
   position: relative;
-  right: 20px;
-  top: 7.7px;
+  right: 26px;
+    top: 20.8px;
   bottom: 0px;
   display: flex;
   -webkit-box-align: center;
@@ -119,7 +206,7 @@ footer {
 
 .product-descricao {
   padding: 0;
- padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .price {
@@ -136,7 +223,7 @@ footer {
   font-size: 1.8rem;
   padding: 5px 1px 5px 1px;
   text-align: center;
-  color:#D0403A;
+  color: #D0403A;
 }
 
 #product-preco-span {
@@ -209,10 +296,10 @@ input:checked+label {
 .product-escolhas {
   display: inline-flex;
   flex-direction: column;
-  width:200px;
+  width: 200px;
   text-align: center;
   border-radius: 4px;
-  
+
 }
 
 .size {
@@ -251,7 +338,24 @@ input:checked+label {
   color: white;
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width:300px) {
+
+  .product-image {
+    width: 330px;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 45px;
+    text-align: center;
+  }
+
+  .product-descricao {
+    font-size: 14px;
+    text-align: center;
+  }
+
+}
+
+/* @media screen and (min-width: 1024px) {
   .showroom {
     display: flex;
     flex-direction: row;
@@ -262,4 +366,4 @@ input:checked+label {
     margin-right: 20px;
     padding-top: 50px;
   }
-}
+} */
